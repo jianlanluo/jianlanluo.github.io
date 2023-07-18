@@ -1,7 +1,7 @@
 #!/bin/bash
 
 chmod a+r index.html
-chmod -R a+x ./data
-chmod -R a+x ./css
-chmod -R a+x ./images
+chmod -R a+r ./data
+chmod -R a+r ./css
+chmod -R a+r ./images
 

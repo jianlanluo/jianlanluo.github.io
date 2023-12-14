@@ -182,6 +182,7 @@ li {
 
 #publications {
   line-height: 2.0;
+  width: 80%;
   margin-top: -10px;
 }
 
@@ -221,7 +222,7 @@ li {
   color: #505050;
 }
 
-#author-kuan {
+#author-jianlan {
   font-weight: bold;
   color: black;
 }

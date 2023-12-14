@@ -182,7 +182,7 @@ li {
 
 #publications {
   line-height: 2.0;
-  width: 80%;
+  width: 100%;
   margin-top: -10px;
 }
 
@@ -194,6 +194,7 @@ li {
 
 #publications table {
   float: left;
+  width: 100%;
  
 }
 

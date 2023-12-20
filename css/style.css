@@ -133,7 +133,7 @@ li {
 }
 
 .section h1 + p {
-  margin-top: 10px; /* Adjust this value as needed to reduce or increase space */
+  margin-top: 20px; /* Adjust this value as needed to reduce or increase space */
 }
 
 

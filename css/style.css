@@ -133,7 +133,7 @@ li {
 }
 
 .section h1 + p {
-  margin-top: 0px; /* Adjust this value as needed to reduce or increase space */
+  margin-top: 10px; /* Adjust this value as needed to reduce or increase space */
 }
 
 
@@ -188,7 +188,7 @@ li {
 #publications {
   line-height: 2;
   width: 100%;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 

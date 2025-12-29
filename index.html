@@ -1,128 +1,81 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">  
-  <style>
-    .tooltip {
-      position: relative;
-    }
-
-    .tooltip .tooltiptext {
-      visibility: hidden;
-      width: 100px;
-      background-color: white;
-      color: #000;
-      text-align: center;
-      border-radius: 6px;
-      padding: 5px 0;
-
-      /* Position the tooltip */
-      position: absolute;
-      z-index: 1;
-      top: -5px;
-      left: 70%;
-    }
-
-    .tooltip:hover .tooltiptext {
-      visibility: visible;
-      text-align: center;
-      font-size: 36px;
-    }
-
-    .tooltip .tooltiptext a {
-      color: #000;
-    }
-  </style>
-
-  <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	
-		<title>Jianlan Luo</title>
-			
-    <!-- <link rel="icon" type="image/png" href="images/su_icon_1color.png"/> -->
-
-    <link rel="icon" type="image/png" href="images/seal_iconv2.png"/>
-    <link rel="shortcut icon" type="image/png" href="images/seal_iconv2.png"/>
-
-    
-	
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
-    <link rel="stylesheet" href="css/jquery.popup.css" type="text/css"/>
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJ61BMHZPE"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-XJ61BMHZPE');
-    </script>
-
-
-    </head>	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jianlan Luo</title>
+  
+  <link rel="icon" type="image/png" href="images/seal_iconv2.png">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XJ61BMHZPE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XJ61BMHZPE');
+  </script>
+</head>	
 
 	<body>
-    <div class="section">
-      <table id="personal">
-        <tr>
-          <td id="basic">
-            <div>
-              <br/>
-              <div class="tooltip" align="center">
-                <h1>Jianlan Luo</h1>
-               
-              </div>
-              <br/>
-              <h2><b>Email</b>: jianlanluo [at] eecs [dot] berkeley [dot] edu</h2>
-            </div>
-          </td>
-        </tr>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+      </div>
+    </nav>
 
-        <tr>
+    <!-- Header -->
+    <div class="header-section">
+      <div class="header-photo">
+        <img src="images/jianlan_luo.jpg" alt="Jianlan Luo"/>
+      </div>
+      <div class="header-info">
+        <h1 class="name">Jianlan Luo</h1>
+        <p class="title">Postdoctoral Scholar</p>
+        <p class="affiliation"><a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a></p>
+        <p class="affiliation"><a href="https://www.berkeley.edu/">UC Berkeley</a></p>
+        
+        <div class="contact-row">
+          <p><b>Email:</b> jianlanluo [at] eecs [dot] berkeley [dot] edu</p>
+        </div>
 
-          <td id="bio">
-            <div>
-              I am a Postdoctoral Scholar at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> Lab working with <a href="https://people.eecs.berkeley.edu/~svlevine/">Prof. Sergey Levine</a>. 
-              Before moving back full-time to academia in 2022, I spent two years as a researcher at <a href="https://x.company/projects/intrinsic/">Google [X]</a> working with <a href="https://stefan-schaal.net/">Prof. Stefan Schaal</a>.
-              I received my MS/Ph.D. from <a href="https://www.berkeley.edu/">UC Berkeley</a> in 2020.
-              I have also spent time at <a href="https://www.deepmind.com/">Deepmind</a>, <a href="https://x.company/projects/everyday-robots/">Everyday Robots</a>. 
-             
+        <div class="social-links">
+          <a href="https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en" class="social-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+            Scholar
+          </a>
+          <a href="https://github.com/jianlanluo" class="social-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            GitHub
+          </a>
+          <a href="https://twitter.com/jianlanluo" class="social-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            Twitter
+          </a>
+        </div>
+      </div>
+    </div>
 
-
-                <br/>
-              
-                
-
-                <br/><br/>
-
-                <h2>
-
-                  <a href="https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en">Google Scholar</a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href="https://twitter.com/jianlanluo">Twitter</a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;
-                  <a href="https://github.com/jianlanluo">GitHub</a>                  
-                </h2>
-            </div>
-          </td>
-
-          <td id="photo">
-            <div>
-              <img src="images/jianlan_luo.jpg"/>
-            </div>
-          </td>
-
-        </tr>
-
-      </table>
+    <!-- About -->
+    <div id="about" class="section">
+      <p class="bio-text">
+        I am a Postdoctoral Scholar at <a href="https://bair.berkeley.edu/">BAIR</a> working with <a href="https://people.eecs.berkeley.edu/~svlevine/">Prof. Sergey Levine</a>. 
+        My research focuses on developing scalable robot learning systems, with work published in <b>Science Robotics</b> and recognized with the <b>ICRA 2024 Best Conference Paper Award</b>.
+        Previously, I was a researcher at <a href="https://x.company/projects/intrinsic/">Google [X]</a> (2020-2022) working with <a href="https://stefan-schaal.net/">Prof. Stefan Schaal</a>, and have spent time at <a href="https://www.deepmind.com/">DeepMind</a> and <a href="https://x.company/projects/everyday-robots/">Everyday Robots</a>.
+        I received my Ph.D. from <a href="https://www.berkeley.edu/">UC Berkeley</a> in 2020.
+      </p>
     </div>
 
 
 
     <div id="info">
 
-      <div class="section">
+      <div id="news" class="section">
         <h1>News</h1><br/>
 
         <ul>
@@ -132,18 +85,23 @@
       </div>
 
 
-      <div class="section">
+      <div id="research" class="section">
         <h1>Research</h1>
         <p>
-          My research vision centers on enabling robust long-term autonomy for complex 
-          real-world systems; drawing on tools and concepts from <b>machine learning, controls, and robotics.</b>
-          Towards that end, my research agenda is focused on developing principled approaches for the design of high-performance, learning-based robotic systems,
-          with the ultimate goal of deploying them successfully in complex, real-world environments.
+          My research develops principled, scalable approaches for high-performance robotic learning systems that autonomously operate and continually improve in complex real-world environments. 
+          I advocate for a unified learning paradigm that integrates <b>vision-language-action (VLA) models</b>, <b>world models</b>, and <b>reinforcement learning</b> into a continuous data flywheel—enabling agents to learn from multimodal experience, anticipate action outcomes, and iteratively refine behavior through physical interaction.
         </p>
+        <br/>
+        <p><b>Key Research Themes:</b></p>
+        <ul class="research-themes">
+          <li><b>Generalist Robot Learning</b> — Developing hierarchical VLA architectures and world models that enable compositional task understanding, predictive planning, and generalization across tasks and embodiments</li>
+          <li><b>Real-World Reinforcement Learning</b> — Building RL systems that achieve superhuman reliability and precision through sample-efficient learning with human feedback, demonstrated by the first successful deployment of RL on live manufacturing lines</li>
+          <li><b>Learning-Based Robotic Systems</b> — Creating open-source frameworks (SERL, HIL-SERL) that integrate learning algorithms with physical constraints for stable, reproducible real-world deployment</li>
+        </ul>
       </div>
       
       
-      <div class="section">
+      <div id="publications" class="section">
         <h1>Selected Publications  [ <a href="https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en">Full List</a> ] </h1><br/>
         <table id="publications">
 
@@ -161,9 +119,9 @@
                   <span id="author-jianlan">Jianlan Luo</span>, Charles Xu, Jeffrey Wu, Sergey Levine
                 </span>
                 <br/>
-                To Appear at Science Robotics 
+                Science Robotics 2025
                 <br/>
-                <a href="https://arxiv.org/abs/2410.21845">ArXiv</a> |
+                <a href="https://www.science.org/stoken/author-tokens/ST-2831/full">Paper</a> |
                 <a href="https://github.com/rail-berkeley/hil-serl">Code</a> |
                 <a href="https://news.berkeley.edu/2025/01/28/using-ai-these-robots-learn-complicated-skills-with-startling-accuracy/">UC Berkeley News</a> |
                 <a href="https://techxplore.com/news/2025-01-ai-fast-precise-robots-complicated.html">Tech Xplore</a> 
@@ -189,11 +147,10 @@
                    Yunhai Feng, Jiaming Han, Zhuoran Yang, Xiangyu Yue, Sergey Levine, <span id="author-jianlan">Jianlan Luo</span> 
                 </span>
                 <br/>
-                ArXiv
+                Conference on Robot Learning (CoRL) 2025
                 <br/>
-                <a href="">Paper</a> |
-                <a href="">Code</a> |
-                <a href="">Dataset</a> 
+                <a href="https://arxiv.org/abs/2502.16707">Paper</a> |
+                <a href="https://github.com/yunhaif/reflect-vlm">Code</a> 
   
               </p>
             </td>
@@ -382,13 +339,9 @@
                 </span>
                 <br/>
 		            International Conference on Robotics and Automation (ICRA) 2024
-                <br />
-                <span style="color: red; display: block; margin-bottom: -45px;">Best Conference Paper Award</span>
-                <br />
-                <span style="color: red; display: block; margin-bottom: -45px;">Best Student Paper Award Finalist</span>
-                <br />
-                <span style="color: red; display: block; margin-bottom: -30px;">Best Manipulation Paper Award Finalist</span>
-                <br />
+                <br/>
+                <span class="award">Best Conference Paper Award</span>
+                <br/>
                 <a href="https://arxiv.org/abs/2310.08864">arXiv</a> |
                 <a href="https://deepmind.google/discover/blog/scaling-up-learning-across-many-different-robot-types/">Blog Post</a> |
                 <a href="https://docs.google.com/spreadsheets/d/1rPBD77tk60AEIGZrGSODwyyzs5FgCU9Uz3h-3_t2A9g/edit#gid=0">Dataset</a> 

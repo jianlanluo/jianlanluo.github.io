@@ -106,8 +106,12 @@ a:hover {
   text-decoration: underline;
 }
 
-b {
+b, strong {
   font-weight: 600;
+}
+
+i, em {
+  font-style: italic;
 }
 
 tr {

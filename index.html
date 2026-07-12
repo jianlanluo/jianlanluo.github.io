@@ -32,16 +32,16 @@
     <!-- Header -->
     <div class="header-section">
       <div class="header-photo">
-        <img src="images/jianlan_luo.jpg" alt="Jianlan Luo"/>
+        <img src="images/jianlanluo.png" alt="Jianlan Luo"/>
       </div>
       <div class="header-info">
         <h1 class="name">Jianlan Luo</h1>
         <p class="title"></p>
-        <p class="affiliation"><a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a></p>
-        <p class="affiliation"><a href="https://www.berkeley.edu/">UC Berkeley</a></p>
+        <p class="affiliation">Associate Professor</a></p>
+        <p class="affiliation">Shanghai Innovation Institute</a></p>
         
         <div class="contact-row">
-          <p><b>Email:</b> jianlanluo [at] eecs [dot] berkeley [dot] edu</p>
+          <p><b>Emails:</b> jianlanluo [at] sii.edu.cn, jianlanluo [at] eecs.berkeley.edu</p>
         </div>
 
         <div class="social-links">
@@ -64,9 +64,31 @@
     <!-- About -->
     <div id="about" class="section">
       <p class="bio-text">
-        I am a researcher in robot learning. I work closely with <a href="https://people.eecs.berkeley.edu/~svlevine/">Prof. Sergey Levine</a> at <a href="https://bair.berkeley.edu/">BAIR</a>. 
-        Previously, I was a researcher at <a href="https://x.company/projects/intrinsic/">Google [X]</a> (2020-2023) working with <a href="https://stefan-schaal.net/">Prof. Stefan Schaal</a>, and have spent time at <a href="https://www.deepmind.com/">DeepMind</a> and <a href="https://x.company/projects/everyday-robots/">Everyday Robots</a>.
-        I received my Ph.D. from <a href="https://www.berkeley.edu/">UC Berkeley</a> in 2020.
+        <p class="bio-text">
+          I am an Associate Professor at
+          <a href="https://www.sii.edu.cn/">Shanghai Innovation Institute</a>.
+          My research focuses on scalable and reliable robot learning systems,
+          with an emphasis on robot foundation models, world models, and
+          real-world reinforcement learning.
+        </p>
+        
+        <p class="bio-text">
+          Previously, I was a researcher at
+          <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a>,
+          where I worked closely with
+          <a href="https://people.eecs.berkeley.edu/~svlevine/">Prof. Sergey Levine</a>.
+          From 2020 to 2023, I was a researcher at
+          <a href="https://x.company/">Google [X]</a>,
+          where I worked with
+          <a href="https://stefan-schaal.net/">Prof. Stefan Schaal</a>.
+          I also spent time at
+          <a href="https://deepmind.google/">DeepMind</a>
+          and
+          <a href="https://x.company/projects/everyday-robots/">Everyday Robots</a>.
+          I received my Ph.D. from
+          <a href="https://www.berkeley.edu/">UC Berkeley</a>
+          in 2020.
+        </p>
       </p>
     </div>
 
@@ -74,45 +96,97 @@
 
     <div id="info">
 
-      <div id="news" class="section">
-        <h1>News</h1><br/>
+<!-- News -->
+<div id="news" class="section">
+  <h1>News</h1>
 
-        <ul>
+  <ul>
+    <li>
+      We released
+      <a href="https://finch.agibot.com/research/tau0-wm">
+        &tau;<sub>0</sub>-WM
+      </a>,
+      a unified video-action world model for robotic manipulation.
+    </li>
 
-          <li>Real-world reinforcement learning deployed in real manufacturing lines, featured in <a href="https://www.wired.com/story/agibot-robots-manufacturing/">WIRED</a>.</li>
+    <li>
+      We introduced
+      <a href="https://finch.agibot.com/research/lwd">
+        Learning while Deploying (LWD)
+      </a>,
+      a fleet-scale reinforcement learning framework for continually
+      improving generalist robot policies through real-world deployment.
+    </li>
 
-          <li><a href="https://www.science.org/doi/10.1126/scirobotics.ads5033">HIL-SERL</a> appeared in Science Robotics and was featured on the journal cover. </li>
+    <li>
+      <a href="https://www.science.org/doi/10.1126/scirobotics.ads5033">
+        HIL-SERL
+      </a>
+      appeared in <i>Science Robotics</i> and was featured on the journal cover.
+    </li>
 
-          <li>I was named to the <a href="https://www.innovatorsunder35.com/the-list/jianlan-luo/">MIT Innovators Under 35 (China)</a> list.</li>
+    <li>
+      I was named to the
+      <a href="https://www.innovatorsunder35.com/the-list/jianlan-luo/">
+        MIT Innovators Under 35 (China)
+      </a>
+      list.
+    </li>
+  </ul>
+</div>
 
 
-        </ul>
-      </div>
+
+<!-- Research -->
+<div id="research" class="section">
+  <h1>Research</h1>
+
+  <p>
+    My research focuses on building scalable and reliable robot learning
+    systems that can operate, adapt, and continually improve in the physical
+    world. Rather than treating pretraining, post-training, and deployment as
+    separate stages, I aim to connect them into a unified learning loop that
+    integrates vision-language-action policies, world models, real-world
+    reinforcement learning, and scalable robotic infrastructure.
+  </p>
+
+  <p>
+    A central goal of my work is to enable robots to learn from heterogeneous
+    multimodal experience, anticipate the physical consequences of their
+    actions, improve through real-world interaction, and feed deployment
+    experience back into subsequent training. Key research themes include:
+  </p>
+
+  <br>
 
 
-      <div id="research" class="section">
-        <h1>Research</h1>
-        <p>
-          My research focuses on building <b>principled, scalable robotic learning systems</b> that achieve reliable, high-performance behavior in complex real-world environments. 
-          I aim to move beyond isolated models toward <i>end-to-end learning systems</i> that can autonomously operate, adapt, and continually improve through physical interaction.
-          A central theme of my work is a <i>unified learning framework</i> that integrates <i>vision-language models</i>, <i>world models</i>, and <i>reinforcement learning</i> into a <i>continuous data flywheel</i>—enabling agents to learn from multimodal experience, anticipate the consequences of actions, and iteratively refine behavior through real-world feedback.
-        </p>
-        
-        <br/>
-        <p>
-        <p><b>Key Research Themes:</b></p>
-        <ul class="research-themes">
-          <li>
-            <b>Generalist Robot Learning</b> — Developing VLA and world models that enable compositional task understanding, predictive planning, and generalization across tasks, objects, and embodiments
-          </li>
-          <li>
-            <b>Real-World Reinforcement Learning</b> — Designing sample-efficient RL systems with human feedback that achieve <i>superhuman reliability and precision</i> in contact-rich manipulation, enabling practical deployment in industrial settings
-          </li>
-          <li>
-            <b>Learning-Based Robotic Systems</b> — Building open-source, end-to-end robotic learning frameworks (e.g., SERL, HIL-SERL) that tightly integrate learning algorithms with physical constraints, enabling stable, reproducible, and scalable real-world deployment
-          </li>
-        </ul>
-      </div>
+
+  
+  <ul>
+    <li>
+      <b>Robot Foundation Models</b> — Developing vision-language-action
+      policies and world models that enable compositional task understanding,
+      predictive planning, and generalization across tasks, objects,
+      environments, and robot embodiments.
+    </li>
+
+    <li>
+      <b>Real-World Post-Training</b> — Designing sample-efficient
+      reinforcement learning and human-in-the-loop systems that improve
+      pretrained policies through physical interaction, enabling high
+      reliability and precision in contact-rich manipulation.
+    </li>
+
+    <li>
+      <b>Scalable Robotic Learning Systems</b> — Building open-source and
+      fleet-scale learning frameworks that connect data collection, training,
+      evaluation, deployment, and continual improvement in real robotic
+      systems.
+    </li>
+  </ul>
+</div>
+
+
       
       
       
@@ -120,6 +194,52 @@
         <h1>Selected Publications  [ <a href="https://scholar.google.com/citations?user=SJoRNbYAAAAJ&hl=en">Full List</a> ] </h1><br/>
         <table id="publications">
 
+
+          <tr>
+            <td id="publications-image-cell">
+            <img src="papers/images/tau-0.jpeg" style="object-fit: contain; background: #f5f5f5;"/>
+            </td>
+            <td id="publications-info">
+              <p>
+                <span id="paper">
+                  <a href="https://finch.agibot.com/research/tau0-wm">&tau;<sub>0</sub>-WM: A Unified Video-Action World Model for Robotic Manipulation
+                  </a>
+                </span>
+                <br/>
+                <span id="author">
+                  Pengfei Zhou, Shengcong Chen, Di Chen, Jiaxu Wang, Rongjun Jin, Bingwen Zhu, Yike Pan, Songen Gu, Kuanning Wang, Shufeng Nan, Xingyu Qiu, Chenhao Qiu, Pu Yang, Yunuo Cai, Jianxiong Gao, Yifan Li, Yanwei Fu, Xiangyu Yue, Zhi Chen, <span id="author-jianlan">Jianlan Luo</span>
+                </span>
+                <br/>
+                ArXiv
+                <br/>
+                <a href="https://arxiv.org/abs/2606.01027v1">Paper</a>
+
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="publications-image-cell">
+            <img src="papers/images/lwd.png" style="object-fit: contain; background: #f5f5f5;"/>
+            </td>
+            <td id="publications-info">
+              <p>
+                <span id="paper">
+                  <a href="https://arxiv.org/abs/2605.00416">Learning While Deploying: Fleet-Scale Reinforcement Learning for Generalist Robot Policies
+                  </a>
+                </span>
+                <br/>
+                <span id="author">
+                  Yi Wang, Xinchen Li, Pengwei Xie, Pu Yang, Buqing Nie, Yunuo Cai, Qinglin Zhang, Chendi Qu, Jeffrey Wu, Jianheng Song, Xinlin Ren, Jingshun Huang, Mingjie Pan, Siyuan Feng, Zhi Chen, <span id="author-jianlan">Jianlan Luo</span>
+                </span>
+                <br/>
+                ArXiv
+                <br/>
+                <a href="https://arxiv.org/abs/2605.00416">Paper</a>
+
+              </p>
+            </td>
+          </tr>
 
           <tr>
             <td id="publications-image-cell">
@@ -138,7 +258,7 @@
                 <br/>
                 ArXiv
                 <br/>
-                <a href="https://agibot.com/research/sop">Paper</a> 
+                <a href="https://finch.agibot.com/research/sop">Paper</a> 
   
               </p>
             </td>
@@ -184,7 +304,7 @@
                   Wenzhi Zhao, Rongjun Jin， Guanghui Ren <span id="author-jianlan">Jianlan Luo</span> 
                 </span>
                 <br/>
-                ArXiv
+                Robotics: Science and Systems (RSS) 2026 
                 <br/>
                 <a href="https://arxiv.org/abs/2512.23541">Paper</a> 
   
